@@ -8,7 +8,9 @@ pipeline {
                 echo "my workspace"
                 echo "${WORKSPACE}"
                 echo "FIND NUMBER OF USERS ON THE SYSTEM"
-                sh "./find.sh"
+                sh "./find.sh > users.out"
+                
+                archiveArtifacts artifacts : '*.out'
             }
         }
     }
