@@ -1,5 +1,5 @@
 # Learning Jenkins :; chan
-[![Build Status](http://54.172.129.10:8080/buildStatus/icon?job=github-auto-commit-hook)](http://54.172.129.10:8080/job/github-auto-commit-hook/)
+
 
 This is the repository for the LinkedIn Learning course Learning Jenkins. The full course is available from [LinkedIn Learning][lil-course-url].
 
