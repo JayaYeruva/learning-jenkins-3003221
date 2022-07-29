@@ -18,7 +18,7 @@ pipeline {
             }
         }
         stage('GO TO path') {
-            dir("${WORKSPACE}")
+            #dir("${WORKSPACE}")
             steps {
                 echo "CHANGed DIR"
                 sh "./find.sh > users_ch_dir.out"
