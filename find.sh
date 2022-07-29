@@ -1,2 +1,3 @@
 #!/bin/bash
-w -h
+echo "my users"
+w
